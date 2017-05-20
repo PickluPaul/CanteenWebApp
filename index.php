@@ -16,7 +16,8 @@
 var database = firebase.database();
 function Login() {
 if (document.getElementById("cafe").value && document.getElementById("user_id").value !='Username' && document.getElementById("password").value !='Password'){
-    var database = firebase.database();    
+      
+    var database =  firebase.database();    
 	var state=0;
 	database.ref().child('Admin_login').on("value", function(snapshot) {
     snapshot.forEach(function(childSnapshot) {
