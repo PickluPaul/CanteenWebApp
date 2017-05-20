@@ -1,0 +1,6 @@
+AuthName "protected area"
+AuthType Basic
+AuthUserFile C:/xampp/htdocs/canteen/ht/.htpasswd
+AuthGroupFile None
+Require valid-user	
+ErrorDocument 401 C:/xampp/htdocs/canteen/index.html
