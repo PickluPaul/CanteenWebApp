@@ -1,0 +1,9 @@
+diff a/index.php b/index.php	(rejected hunks)
+@@ -0,6 +0,7 @@
+ <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+ <script>
++  // Initialize Firebase
+   var config = {
+     apiKey: "AIzaSyAc4TooiNvw4Frvhze26Nxl3MZRccFSS0U",
+     authDomain: "cisco-canteen-app.firebaseapp.com",
